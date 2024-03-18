@@ -1,0 +1,134 @@
+section {
+    display: flex;
+    border: 1px solid rgb(73, 72, 72);
+    border-radius: 4px;
+}
+.opt{
+    width: 182px;
+}
+.lieu1{
+    padding: 5px;
+    border-radius: 4px;
+    height: 19px;
+}
+  .lieu{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 4px;
+    height: 19px;
+  }
+  .select select{
+    padding: 5px;
+    border-radius: 4px;
+    border: 2px solid black;
+    color: rgb(102, 101, 101);
+  }
+.info{
+    margin-left: 30px;
+}
+.nav{
+    margin-bottom: 30px;
+}
+.link{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    width: 140px;
+    height: 60px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+
+#info{
+    width: 50vw;
+    color: black;
+}
+
+#event_list{
+    width: 70vw;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.image_thumb {
+    width: 200px;
+    height: 266px;
+    border-radius: 24px;
+}
+#menue{
+    width: 10vw;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    margin-bottom: 120px;
+}
+
+
+#body {
+    display: flex;
+    justify-content: space-evenly;
+} 
+@media screen and (max-width: 280px){
+    .dep{
+      display: none;
+    }
+     .info1{
+         margin-left: 30px;
+       display: block;
+       width: 670px;
+    }
+    .info{
+        width: 760px;
+    }
+    #event_list{
+        width: 1100px; 
+    }
+    .opt{
+        border-radius: 9px;
+        height:90px;
+        width: 460px;
+        font-size: 60px;
+    }
+    .lieu1{
+        width: 382px;
+        font-size: 60px;
+        border-radius: 9px;
+        height:90px;
+        width: 450px;
+    }
+      .lieu{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 9px;
+        height:90px;
+        width: 450px;
+        font-size: 60px;
+ }
+#body{
+        display: block;
+        font-size: 60px;
+        margin-left: 0px;
+}
+ #menue{
+          margin-left: 40px;
+ }
+ #event_list{
+        width: 990px;
+}
+ .btn{
+        width: 190px;
+        height: 95px;
+        font-size: 38px;
+        background-color: black;
+        color: white;
+        margin-left: 50px;
+}
+  }
